@@ -33,27 +33,27 @@ pip install jupyter matplotlib h3  # for notebooks
 
 ### Getting Started
 
-| Notebook | Description |
-|---|---|
-| [Introduction to Forecasts](examples/getting_started/01_introduction.ipynb) | Your first address forecast — understanding P10/P50/P90 and reliability |
-| [Bulk Address Lookup](examples/getting_started/02_bulk_lookup.ipynb) | Retrieve forecasts for a list of addresses and export to CSV |
-| [Parcel Fan Chart](examples/getting_started/03_parcel_fan_chart.ipynb) | Download and visualize the full probability fan chart for a tax parcel |
+| Notebook | Coverage | Description |
+|---|---|---|
+| [Introduction to Forecasts](examples/getting_started/01_introduction.ipynb) | Houston | Your first address forecast — understanding P10/P50/P90 and reliability |
+| [Bulk Address Lookup](examples/getting_started/02_bulk_lookup.ipynb) | Houston | Retrieve forecasts for a list of addresses and export to CSV |
+| [Parcel Fan Chart](examples/getting_started/03_parcel_fan_chart.ipynb) | **Florida + Houston** | Full P10–P90 fan chart for individual parcels by tax account number |
 
 ### Neighborhood Analysis
 
-| Notebook | Description |
-|---|---|
-| [H3 Neighborhood Heatmap](examples/neighborhoods/01_h3_heatmap.ipynb) | Map opportunity scores across Houston using H3 hex cells |
-| [Cross-Market Comparison](examples/neighborhoods/02_market_comparison.ipynb) | Compare Houston · Austin · SF · NYC: 5-year outlook and proforma metrics |
-| [Opportunity Ranking](examples/neighborhoods/03_opportunity_ranking.ipynb) | Screen and rank neighborhoods by risk-adjusted growth potential |
+| Notebook | Coverage | Description |
+|---|---|---|
+| [NYC Tabblock Analysis](examples/neighborhoods/01_nyc_tabblock_analysis.ipynb) | **NYC + Houston** | Sub-neighborhood forecasts using 15-digit Census tabblock GEOIDs |
+| [Cross-Market Comparison](examples/neighborhoods/02_market_comparison.ipynb) | **Nationwide** | Houston · NYC · Miami · Chicago · SF · Seattle via ZCTA and tabblock |
+| [Opportunity Ranking](examples/neighborhoods/03_opportunity_ranking.ipynb) | Houston | Screen and rank neighborhoods by risk-adjusted growth potential |
 
 ### Investment Analysis
 
-| Notebook | Description |
-|---|---|
-| [DSCR Screening](examples/investment/01_dscr_screening.ipynb) | Filter properties by debt-service coverage ratio across a market |
-| [Cap Rate Distribution](examples/investment/02_cap_rate_distribution.ipynb) | Analyze cap rate dispersion and identify underpriced submarkets |
-| [Fan Chart Underwriting](examples/investment/03_fan_chart_underwriting.ipynb) | Use the P10/P90 spread to model upside/downside acquisition scenarios |
+| Notebook | Coverage | Description |
+|---|---|---|
+| [DSCR Screening](examples/investment/01_dscr_screening.ipynb) | Houston | Filter neighborhoods by debt-service coverage ratio |
+| [Cap Rate Distribution](examples/investment/02_cap_rate_distribution.ipynb) | Houston | Analyze cap rate dispersion and identify underpriced submarkets |
+| [Fan Chart Underwriting](examples/investment/03_fan_chart_underwriting.ipynb) | **Florida** | Use P10/P90 spread to model upside/downside acquisition IRR scenarios |
 
 ---
 
